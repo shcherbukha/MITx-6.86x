@@ -15,7 +15,7 @@ from train_utils import batchify_data, run_epoch, train_model
 
 def main():
     # Load the dataset
-    num_classes = 10
+    num_classes = 128
     X_train, y_train, X_test, y_test = get_MNIST_data()
 
     # Split into train and dev
